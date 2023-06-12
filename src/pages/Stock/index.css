@@ -7,16 +7,17 @@
     
 }
 .wrapper{
-    position:relative;
+   
 }
 
 .iconSearch{
-   font-size: 4rem;
+    color: #B3B1B1;
+   font-size: 2rem;
     padding: 4px;
     position:absolute;
     box-sizing: border-box;
     top: 50%;
-    left: 13rem;
+    left: 14.5rem;
     transform: translateY(-50%);
 }
 
@@ -27,6 +28,7 @@
 }
 
 .plusButton{
+    cursor: pointer;
     display: flex;
     width: 7.5rem;
     height: 6rem;
@@ -39,10 +41,37 @@
     justify-content: center
 }
 
+.plusButton:hover{
+    background: #9B9999;
+    transition: 500ms linear; 
+}
+
+.filterButton{
+    margin-left: 2rem; 
+    font-weight: 700;
+    color: #B3B1B1;
+    font-size: 1.8rem;
+    width: 12rem;
+    height: 6rem;
+
+    background: var(--bg-light);
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1.5rem
+}
+
 table{
     padding-left:5.5rem;
     width: 100%;
     box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+
+table *{
+    font-size: 2rem;
+    color: #6B6B6B
+}
+
+table tr{
+    height: 10rem;
 }
 
 table tr:nth-child(even){
@@ -59,6 +88,7 @@ table tr:nth-child(odd){
 }
 
 .search{
+    font-size: 1.8rem;
     background: var(--bg-light);
 
     width: 18rem;
@@ -69,6 +99,8 @@ table tr:nth-child(odd){
 }
 
 .search::placeholder{
+    color: #B3B1B1;
+    padding-left: 2rem;
     font-size: 1.8rem;
     font-weight: 700;
     margin: 2rem 8rem 2rem 3 rem
@@ -89,3 +121,21 @@ thead, tbody{
 th{
     text-align:left;
 }
+
+
+.labelDown{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.labelId{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+

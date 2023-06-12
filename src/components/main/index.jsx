@@ -3,10 +3,10 @@ import Header from "../header";
 import SideBar from "../sidebar";
 import "./index.css";
 
-const Main = ({ children }) => {
+const Main = ({ children, page }) => {
   return (
     <div className="content">
-      <SideBar />
+      <SideBar page = { page } />
       <div className="content column">
         <Header />
         <div className="body">
