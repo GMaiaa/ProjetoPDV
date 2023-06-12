@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 21rem;
+    justify-content:space-between;
+    background: var(--bg-primary)
+
+}
+
+img{
+    width: 14rem;
+    height: 14.4rem;
+    margin: 2.7rem 34rem 0 6.6rem
+}
+
+h1{
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+
+.space{
+    width: 58rem;
+    background: var(--bg-primary)
+}

@@ -1,0 +1,91 @@
+
+.contentStock{
+    background: var(--bg-light);
+    height: 100%;
+    margin: 2rem; 
+    padding-top: 1px;
+    
+}
+.wrapper{
+    position:relative;
+}
+
+.iconSearch{
+   font-size: 4rem;
+    padding: 4px;
+    position:absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 13rem;
+    transform: translateY(-50%);
+}
+
+.input {
+    height: 5rem;
+    box-sizing:border-box;
+    padding-left: 1.5rem
+}
+
+.plusButton{
+    display: flex;
+    width: 7.5rem;
+    height: 6rem;
+    
+    background: rgb(179, 177, 177);
+    
+    
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: center
+}
+
+table{
+    padding-left:5.5rem;
+    width: 100%;
+    box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+
+table tr:nth-child(even){
+    background: #F2F3F3
+}
+
+table tr:nth-child(odd){
+    background: var(--bg-light);
+}
+
+.iconPlus{
+    font-size: 3rem;
+    color: var(--ff-color)
+}
+
+.search{
+    background: var(--bg-light);
+
+    width: 18rem;
+    height: 6.2rem;
+
+    border-radius: 1.5rem;
+    border: 1px solid rgba(0, 0 , 0, 0.2)
+}
+
+.search::placeholder{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 2rem 8rem 2rem 3 rem
+}
+
+.commands{
+    display:flex;
+    justify-content:space-between;
+
+
+    margin: 2.5rem  4rem 1.5rem 8rem;
+}
+
+thead, tbody{
+    padding-left: 3.5rem;
+}
+
+th{
+    text-align:left;
+}
