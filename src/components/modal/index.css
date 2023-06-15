@@ -70,3 +70,33 @@ input{
     background: var(--gold);
     width: 30%;
 }
+
+.removeProduct{
+    display:flex;
+    flex-direction:column;
+    margin: 4rem 13rem 0 12rem;
+
+    font-size: 2rem;
+
+    
+}
+
+.confirmButtons{
+    margin-top: 5rem;
+
+    font-size: 2rem;
+}
+
+.confirmButtons button{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.confirmButton{
+    color:green;
+}
+
+.cancelButton{
+    color: red;
+    margin-left:20rem;
+}

@@ -232,14 +232,16 @@ const Stock = () => {
           </button>
         </Modal>
         <Modal
-          className="AddProduct"
           isOpen={openModalDelete}
           setModalOpen={() => setOpenModalDelete(!openModalDelete)}
         >
+          <div className="removeProduct">
           <p>Confirma a remoção desse produto?</p>
+          
           <div className="confirmButtons">
-            <button onClick={deleteItem}> Confirmar </button>
-            <button> Cancelar </button>
+            <button className="confirmButton" onClick={deleteItem}> Confirmar </button>
+            <button className="cancelButton"> Cancelar </button>
+          </div>
           </div>
         </Modal>
       </Main>
